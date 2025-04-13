@@ -89,7 +89,7 @@ Add a new movie to the database.
 
 **Example Screenshot:**
 
-![Add Movie Page](https://via.placeholder.com/800x400?text=Add+Movie+Page)
+![Add Movie Page](/images/add.png)
 
 #### 2. View Movies — `getMovies.html`
 
@@ -101,7 +101,7 @@ View the list of all movies in the database.
 
 **Example Screenshot:**
 
-![View Movies Page](https://via.placeholder.com/800x400?text=View+Movies+Page)
+![View Movies Page](/images/view.png)
 
 #### 3. Edit Movie — `putMovie.html`
 
@@ -125,7 +125,7 @@ Update details of an existing movie.
 
 **Example Screenshot:**
 
-![Edit Movie Page](https://via.placeholder.com/800x400?text=Edit+Movie+Page)
+![Edit Movie Page](/images/edit.png)
 
 
 ## 5. API Integration

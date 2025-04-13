@@ -13,15 +13,19 @@ A RESTful API built with:
 
 ## 2. Table of Contents 📑
 
-1. Project Overview
-2. Table of Contents
-3. Installation & Setup
-4. API Documentation
-5. Database Setup (Optional)
-6. Authentication & Security
-7. Deployment Guide
-8. Contributing Guidelines
-9. License
+1. [Project Overview](#1-project-overview-🚀)
+2. [Table of Contents](#2-table-of-contents-📑)
+3. [Installation & Setup](#3-installation--setup-⚙️)
+   - [Prerequisites](#prerequisites)
+   - [Quick Start](#quick-start)
+4. [API Documentation](#4-api-documentation-📖)
+   - [Endpoints](#endpoints)
+   - [Example Request](#example-request)
+5. [Database Setup (Optional)](#5-database-setup-optional)
+6. [Authentication & Security](#6-authentication--security-🔒)
+7. [Deployment Guide](#7-deployment-guide-🚀)
+8. [Contributing Guidelines](#8-contributing-guidelines-🤝)
+9. [License](#9-license)
 
 ---
 
@@ -40,72 +44,96 @@ A RESTful API built with:
    ```bash
    git clone https://github.com/yourusername/backend-project.git
    cd backend-project
-   Install dependencies:
    ```
 
-bash
-Copy
-Edit
-npm install
-Start the server:
+2. Install dependencies:
 
-bash
-Copy
-Edit
-node server.js 4. API Documentation 📖
+   ```bash
+   npm install
+   ```
+
+3. Start the server:
+
+   ```bash
+   node server.js
+   ```
+
+---
+
+## 4. API Documentation 📖
+
 ### Endpoints
 
-| Method | Endpoint           | Description         |
-|--------|--------------------|---------------------|
-| GET    | /api/v1/movies     | Get all movies      |
-| POST   | /api/v1/movies     | Create new movie    |
-| GET    | /api/v1/movies/:id | Get single movie    |
-| PUT    | /api/v1/movies/:id | Update a movie      |
+| Method | Endpoint           | Description      |
+| ------ | ------------------ | ---------------- |
+| GET    | /api/v1/movies     | Get all movies   |
+| POST   | /api/v1/movies     | Create new movie |
+| GET    | /api/v1/movies/:id | Get single movie |
+| PUT    | /api/v1/movies/:id | Update a movie   |
 
 ### Example Request
-Using PostgreSQL on Render
-Set up your PostgreSQL database on Render.
 
-Go to the Render dashboard and create a new PostgreSQL database.
+Using PostgreSQL on Render:
 
-Copy the database connection string.
+1. Set up your PostgreSQL database on Render.
+2. Go to the Render dashboard and create a new PostgreSQL database.
+3. Copy the database connection string.
+4. Configure database connection:
+   Replace the existing values in `db.js` with your Render PostgreSQL credentials.
+5. No migrations needed:
+   Tables are created automatically by Sequelize. Just ensure the database connection is correct.
+6. Verify the connection:
+   Start your server and test API endpoints to ensure the database is working.
 
-Configure database connection.
+---
 
-Replace the existing values in db.js with your Render PostgreSQL credentials.
+## 5. Database Setup (Optional)
 
-No migrations needed.
+Follow the steps in the [Example Request](#example-request) section to configure your database.
 
-Tables are created automatically by Sequelize.
+---
 
-Just ensure the database connection is correct.
+## 6. Authentication & Security 🔒
 
-Verify the connection.
+- JWT-based authentication (setup in backend).
+- Secure your `.env` file and database credentials.
+- Always validate inputs on the frontend and backend.
 
-Start your server and test API endpoints to ensure the database is working.
+---
 
-6. Authentication & Security 🔒
-   JWT-based authentication (setup in backend).
+## 7. Deployment Guide 🚀
 
-Secure your .env file and database credentials.
+1. Push your code to GitHub.
+2. Deploy your backend on Render or any other Node.js-supported platform.
+3. Add your environment variables (e.g., `DATABASE_URL`) to the Render dashboard.
 
-Always validate inputs on the frontend and backend.
+---
 
-7. Deployment Guide 🚀
-   Push your code to GitHub.
+## 8. Contributing Guidelines 🤝
 
-Deploy your backend on Render or any other Node.js-supported platform.
+1. Fork the repository.
+2. Create a new branch:
 
-Add your environment variables (e.g., DATABASE_URL) to the Render dashboard.
+   ```bash
+   git checkout -b feature/feature-name
+   ```
 
-8. Contributing Guidelines 🤝
-   Fork the repository.
+3. Commit your changes:
 
-Create a new branch: git checkout -b feature/feature-name
+   ```bash
+   git commit -m "Added feature"
+   ```
 
-Commit your changes: git commit -m "Added feature"
+4. Push to your branch:
 
-Push to your branch: git push origin feature/feature-name
+   ```bash
+   git push origin feature/feature-name
+   ```
 
-Open a pull request.
+5. Open a pull request.
 
+---
+
+## 9. License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

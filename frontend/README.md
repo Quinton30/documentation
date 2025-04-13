@@ -53,21 +53,68 @@ No frameworks, build tools, or dependencies required!
 
 ## 4. Usage Instructions 🖥️
 
+### Overview
+
+This web application connects to the backend API at `http://localhost:3000/api/v1/movies` to manage movie records. It includes features to add, view, and update movies through an intuitive, mobile-responsive interface.
+
 ### Key Features
 
-- **Feature 1:** Dynamic form validation
-- **Feature 2:** Real-time data display
-- **Feature 3:** Mobile-responsive design
+- ✅ **Dynamic Form Validation**  
+  All forms validate user input to prevent incomplete or invalid data submissions.
 
-### Demo
+- 🖥️ **Real-Time Data Interaction**  
+  Instantly fetches, displays, and updates movie data through API calls.
 
-Add a screenshot or GIF:
+- 📱 **Mobile-Responsive Design**  
+  Clean and responsive layout, optimized for both desktop and mobile devices.
 
-```markdown
-![App Screenshot](images/screenshot.png)
-```
+### Pages & Usage
 
----
+#### 1. Add Movie — `postMovie.html`
+
+Add a new movie to the database.
+
+1. Fill out all the form fields:
+
+   - **Title**
+   - **Genre**
+   - **Release Year**
+   - **Director**
+   - **Rating**
+
+2. Click **Submit** to add the movie.
+
+- A toast notification will confirm if the movie was added successfully.
+- Errors like missing fields or invalid formats will also be shown via toast.
+
+#### 2. View Movies — `getMovies.html`
+
+View the list of all movies in the database.
+
+- When the page loads, it automatically fetches all movie records from the API.
+- Movies are displayed in a responsive, user-friendly table format.
+- Use this page to verify if additions or updates have been applied successfully.
+
+#### 3. Edit Movie — `putMovie.html`
+
+Update details of an existing movie.
+
+1. Enter the **Movie ID** and click **Fetch Movie**.
+
+   - If the movie exists, the form auto-populates with its current details.
+
+2. Edit any of the available fields:
+
+   - **Title**
+   - **Genre**
+   - **Release Year**
+   - **Director**
+   - **Rating**
+
+3. Click **Submit** to update the record.
+
+- You'll get a success or error toast notification based on the operation.
+
 
 ## 5. API Integration (Optional) 🔌
 

@@ -35,7 +35,7 @@ No frameworks, build tools, or dependencies required!
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Quinton/web
+   git clone https://github.com/Quinton30/web
    ```
 2. Navigate to the project folder:
    ```bash

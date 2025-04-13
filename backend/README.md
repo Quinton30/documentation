@@ -22,7 +22,7 @@ A RESTful API built with:
    - [Endpoints](#endpoints)
    - [Example Request](#example-request)
 5. [Database Setup 🗄️](#5-database-setup)
-6. [Authentication & Security 🔒](#6-authentication--security)
+6. [Authentication & Security 🔒](#6-authentication-and-security)
 7. [Deployment Guide 🚀](#7-deployment-guide)
 8. [Contributing Guidelines 🤝](#8-contributing-guidelines)
 9. [License 📜](#9-license)

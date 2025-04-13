@@ -15,7 +15,7 @@ A RESTful API built with:
 
 ## 2. Table of Contents
 
-1. [Project Overview 🚀](#1-project-overview-🚀)
+1. [Project Overview 🚀](#1-project-overview)
 2. [Table of Contents 📑](#2-table-of-contents)
 3. [Installation & Setup ⚙️](#3-installation-and-setup)
    - [Prerequisites](#prerequisites)
@@ -23,11 +23,11 @@ A RESTful API built with:
 4. [API Documentation 📖](#4-api-documentation)
    - [Endpoints](#endpoints)
    - [Example Request](#example-request)
-5. [Database Setup](#5-database-setup)
+5. [Database Setup 🗄️](#5-database-setup)
 6. [Authentication & Security 🔒](#6-authentication--security)
 7. [Deployment Guide 🚀](#7-deployment-guide)
 8. [Contributing Guidelines 🤝](#8-contributing-guidelines)
-9. [License](#9-license)
+9. [License 📜](#9-license)
 
 ---
 
@@ -36,7 +36,7 @@ A RESTful API built with:
 ### Prerequisites
 
 - Node.js (v18+)
-- PostgreSQL (if using database)
+- PostgreSQL (if using a database)
 - npm
 
 ### Quick Start
@@ -74,11 +74,14 @@ A RESTful API built with:
 | PUT    | /api/v1/movies/:id | Update a movie   |
 
 ### Example Request
+
 ```bash
 http://localhost:3000/api/v1/movies/2
 ```
-Response;
-```bash
+
+Response:
+
+```json
 {
   "id": 2,
   "title": "The Dark Knight",
@@ -92,52 +95,50 @@ Response;
 ---
 
 ## 5. Database Setup
-Ready to bring your app to life? Let’s get your database up and running in just a few exciting steps! 🚀
 
-1. Choose Your Database Home 🏠
-Head over to Render and create a shiny new PostgreSQL database. It’s quick and easy!
+Follow these steps to set up your database:
 
-2. Grab Your Magic Key 🔑
-Once your database is set up, Render will provide you with a connection string. Think of this as the secret handshake to your database—copy it carefully and keep it secure!
+1. **Create a PostgreSQL Database**  
+   Use Render or any other hosting service to create a PostgreSQL database.
 
-3. Plug It In 🔌
-Open your db.js file (or equivalent configuration file) and replace the existing credentials with your Render PostgreSQL connection string. This step connects your app to the database.
+2. **Get the Connection String**  
+   Copy the connection string provided by your database host.
 
-4. Set Up the movies Table 🎬
-Before diving into your API, make sure to create the movies table in your database. You can use the following SQL command to set it up:
+3. **Update Configuration**  
+   Replace the credentials in your `db.js` (or equivalent) file with the connection string.
 
-SQL
-```
-CREATE TABLE movies (
-  id SERIAL PRIMARY KEY,
-  title VARCHAR(255) NOT NULL,
-  genre VARCHAR(255),
-  release_year INT,
-  director VARCHAR(255),
-  rating DECIMAL(10,2)
-);
-```
-5. Watch the Magic Happen ✨
-No need to fret about migrations—thanks to Sequelize, your tables can be managed automatically. Just ensure the database connection is correct, and you’re good to go!
+4. **Create the `movies` Table**  
+   Run the following SQL command to create the `movies` table:
 
-6. Test the Waters 🌊
-Start your server and test the API endpoints to ensure everything is working like a charm. Run some queries, add a few movies, and watch the data flow effortlessly!
+   ```sql
+   CREATE TABLE movies (
+     id SERIAL PRIMARY KEY,
+     title VARCHAR(255) NOT NULL,
+     genre VARCHAR(255),
+     release_year INT,
+     director VARCHAR(255),
+     rating DECIMAL(10,2)
+   );
+   ```
+
+5. **Test the Connection**  
+   Start your server and test the API endpoints to ensure the database is connected.
 
 ---
 
-## 6. Authentication & Security
+## 6. Authentication and Security
 
-- JWT-based authentication (setup in backend).
-- Secure your `.env` file and database credentials.
-- Always validate inputs on the frontend and backend.
+- Use **JWT** for authentication.
+- Secure sensitive data in a `.env` file.
+- Validate inputs on both frontend and backend.
 
 ---
 
 ## 7. Deployment Guide
 
 1. Push your code to GitHub.
-2. Deploy your backend on Render or any other Node.js-supported platform.
-3. Add your environment variables (e.g., `DATABASE_URL`) to the Render dashboard.
+2. Deploy your backend on Render or any Node.js-supported platform.
+3. Add environment variables (e.g., `DATABASE_URL`) to the deployment dashboard.
 
 ---
 
@@ -171,3 +172,4 @@ Start your server and test the API endpoints to ensure everything is working lik
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+

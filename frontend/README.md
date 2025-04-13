@@ -5,7 +5,7 @@
 A modern web application built with:
 
 - **HTML5** for structure
-- **Tailwind CSS** (via CDN) for styling
+- **Vanilla CSS** for styling
 - **Vanilla JavaScript** for interactivity
 
 No frameworks, build tools, or dependencies required!
@@ -42,12 +42,6 @@ No frameworks, build tools, or dependencies required!
    cd frontend
    ```
 3. Open `index.html` in your browser (use a live server extension).
-
-**Note:** Tailwind CSS is loaded via CDN in the HTML file:
-
-```html
-<script src="https://cdn.tailwindcss.com"></script>
-```
 
 ---
 

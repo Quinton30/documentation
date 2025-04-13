@@ -1,3 +1,7 @@
+Here is the fixed version of your `README.md` with properly formatted clickable Table of Contents and consistent section references:
+
+---
+
 # APP - Backend API
 
 ## 1. Project Overview 🚀
@@ -13,18 +17,18 @@ A RESTful API built with:
 
 ## 2. Table of Contents 📑
 
-1. [Project Overview](#1-project-overview-🚀)
-2. [Table of Contents](#2-table-of-contents-📑)
-3. [Installation & Setup](#3-installation--setup-⚙️)
+1. [Project Overview 🚀](#1-project-overview-🚀)
+2. [Table of Contents 📑](#2-table-of-contents-📑)
+3. [Installation & Setup ⚙️](#3-installation--setup-⚙️)
    - [Prerequisites](#prerequisites)
    - [Quick Start](#quick-start)
-4. [API Documentation](#4-api-documentation-📖)
+4. [API Documentation 📖](#4-api-documentation-📖)
    - [Endpoints](#endpoints)
    - [Example Request](#example-request)
 5. [Database Setup (Optional)](#5-database-setup-optional)
-6. [Authentication & Security](#6-authentication--security-🔒)
-7. [Deployment Guide](#7-deployment-guide-🚀)
-8. [Contributing Guidelines](#8-contributing-guidelines-🤝)
+6. [Authentication & Security 🔒](#6-authentication--security-🔒)
+7. [Deployment Guide 🚀](#7-deployment-guide-🚀)
+8. [Contributing Guidelines 🤝](#8-contributing-guidelines-🤝)
 9. [License](#9-license)
 
 ---
@@ -137,3 +141,5 @@ Follow the steps in the [Example Request](#example-request) section to configure
 ## 9. License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---

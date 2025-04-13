@@ -18,7 +18,7 @@ No frameworks, build tools, or dependencies required!
 2. [Table of Contents](#2-table-of-contents-📑)
 3. [Installation & Setup](#3-installation--setup-⚙️)
 4. [Usage Instructions](#4-usage-instructions-🖥️)
-5. [API Integration (Optional)](#5-api-integration-optional-🔌)
+5. [API Integration (Optional)](#5-api-integration)
 6. [Contributing Guidelines](#6-contributing-guidelines-🤝)
 7. [License](#7-license-📄)
 

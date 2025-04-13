@@ -60,10 +60,13 @@ This web application connects to the backend API at `http://localhost:3000/api/v
 ### Key Features
 
 - ✅ **Dynamic Form Validation**  
-  All forms validate user input to prevent incomplete or invalid data submissions.
+   All forms validate user input to prevent incomplete or invalid data submissions.
 
 - 🖥️ **Real-Time Data Interaction**  
-  Instantly fetches, displays, and updates movie data through API calls.
+   Instantly fetches, displays, and updates movie data through API calls.
+
+- 📱 **Mobile-Responsive Design**  
+   Clean and responsive layout, optimized for both desktop and mobile devices.
 
 ### Pages & Usage
 
@@ -84,6 +87,10 @@ Add a new movie to the database.
 - A toast notification will confirm if the movie was added successfully.
 - Errors like missing fields or invalid formats will also be shown via toast.
 
+**Example Screenshot:**
+
+![Add Movie Page](https://via.placeholder.com/800x400?text=Add+Movie+Page)
+
 #### 2. View Movies — `getMovies.html`
 
 View the list of all movies in the database.
@@ -91,6 +98,10 @@ View the list of all movies in the database.
 - When the page loads, it automatically fetches all movie records from the API.
 - Movies are displayed in a responsive, user-friendly table format.
 - Use this page to verify if additions or updates have been applied successfully.
+
+**Example Screenshot:**
+
+![View Movies Page](https://via.placeholder.com/800x400?text=View+Movies+Page)
 
 #### 3. Edit Movie — `putMovie.html`
 
@@ -111,6 +122,10 @@ Update details of an existing movie.
 3. Click **Submit** to update the record.
 
 - You'll get a success or error toast notification based on the operation.
+
+**Example Screenshot:**
+
+![Edit Movie Page](https://via.placeholder.com/800x400?text=Edit+Movie+Page)
 
 
 ## 5. API Integration

@@ -113,17 +113,17 @@ Update details of an existing movie.
 - You'll get a success or error toast notification based on the operation.
 
 
-## 5. API Integration (Optional) 🔌
+## 5. API Integration
 
 If your app connects to an API:
 
-- **Base URL:** `https://api.example.com`
+- **Base URL:** `http://localhost:3000/api/v1/movies`
 
 ### Example Request
 
 ```javascript
 // Fetch data from an endpoint
-fetch('https://api.example.com/data')
+fetch('http://localhost:3000/api/v1/movies')
   .then((response) => response.json())
   .then((data) => {
     // Update the DOM here
@@ -139,7 +139,7 @@ fetch('https://api.example.com/data')
 1. Fork the repository.
 2. Create a branch:
    ```bash
-   git checkout -b feature/your-feature
+   git checkout -b feature
    ```
 3. Follow coding standards:
    - Use semantic HTML.

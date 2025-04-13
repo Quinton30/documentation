@@ -65,9 +65,6 @@ This web application connects to the backend API at `http://localhost:3000/api/v
 - 🖥️ **Real-Time Data Interaction**  
   Instantly fetches, displays, and updates movie data through API calls.
 
-- 📱 **Mobile-Responsive Design**  
-  Clean and responsive layout, optimized for both desktop and mobile devices.
-
 ### Pages & Usage
 
 #### 1. Add Movie — `postMovie.html`

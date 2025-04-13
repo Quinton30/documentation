@@ -1,4 +1,4 @@
-# [Project Name] - Backend API
+# APP - Backend API
 
 ## 1. Project Overview 🚀
 

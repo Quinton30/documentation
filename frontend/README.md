@@ -1,6 +1,6 @@
 # Web - Frontend
 
-## 1. Project Overview 🚀
+## 1. Project Overview
 
 A modern web application built with:
 
@@ -12,19 +12,19 @@ No frameworks, build tools, or dependencies required!
 
 ---
 
-## 2. Table of Contents 📑
+## 2. Table of Contents
 
-1. [Project Overview](#1-project-overview-🚀)
-2. [Table of Contents](#2-table-of-contents-📑)
-3. [Installation & Setup](#3-installation--setup-⚙️)
-4. [Usage Instructions](#4-usage-instructions-🖥️)
+1. [Project Overview](#1-project-overview)
+2. [Table of Contents](#2-table-of-contents)
+3. [Installation & Setup](#3-installation-and-setup)
+4. [Usage Instructions](#4-usage-instructions)
 5. [API Integration (Optional)](#5-api-integration)
-6. [Contributing Guidelines](#6-contributing-guidelines-🤝)
-7. [License](#7-license-📄)
+6. [Contributing Guidelines](#6-contributing-guidelines)
+7. [License](#7-license)
 
 ---
 
-## 3. Installation & Setup ⚙️
+## 3. Installation and Setup
 
 ### Requirements
 
@@ -45,7 +45,7 @@ No frameworks, build tools, or dependencies required!
 
 ---
 
-## 4. Usage Instructions 🖥️
+## 4. Usage Instructions
 
 ### Overview
 
@@ -143,7 +143,7 @@ fetch('http://localhost:3000/api/v1/movies')
 
 ---
 
-## 6. Contributing Guidelines 🤝
+## 6. Contributing Guidelines
 
 1. Fork the repository.
 2. Create a branch:
@@ -158,6 +158,6 @@ fetch('http://localhost:3000/api/v1/movies')
 
 ---
 
-## 7. License 📄
+## 7. License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.

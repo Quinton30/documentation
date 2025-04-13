@@ -1,5 +1,3 @@
----
-
 # APP - Backend API
 
 ## 1. Project Overview
